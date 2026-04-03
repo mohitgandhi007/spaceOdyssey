@@ -23,6 +23,9 @@ def test_j2_perturbation_differs_from_two_body():
     two_body = acceleration_eci(r, include_j2=False)
     assert np.linalg.norm(full - two_body) > 0.0
 
+#this is trial
+def trial():
+    iii=11111
 
 def test_rtn_frame_is_orthonormal():
     frame = rtn_frame(np.array([7000.0, 0.0, 0.0]), np.array([0.0, 7.5, 1.0]))
